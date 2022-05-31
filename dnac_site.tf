@@ -9,12 +9,12 @@ terraform {
 
 variable "username" {
   type    = string
-  default = "sand"
+  default = "admin"
 }
 
 variable "password" {
   type    = string
-  default = "yahoo123!"
+  default = "cisco"
 }
 
 provider "dnacenter" {
