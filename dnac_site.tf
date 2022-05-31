@@ -58,10 +58,6 @@ resource "dnacenter_site" "bld" {
     }
     type = "building"
   }
-
-
-
-
 }
 
 
@@ -84,7 +80,6 @@ resource "dnacenter_site" "bld1" {
     }
     type = "floor"
   }
-
 }
 
 resource "dnacenter_site" "bld2" {
@@ -106,8 +101,8 @@ resource "dnacenter_site" "bld2" {
     }
     type = "floor"
   }
-
 }
+
 resource "dnacenter_site" "bld3" {
   provider   = dnacenter
   depends_on = [dnacenter_site.example]
@@ -127,10 +122,7 @@ resource "dnacenter_site" "bld3" {
     }
     type = "floor"
   }
-
 }
-
-
 
 resource "dnacenter_site" "bld0" {
   provider   = dnacenter
@@ -151,7 +143,6 @@ resource "dnacenter_site" "bld0" {
     }
     type = "floor"
   }
-
 }
 
 
